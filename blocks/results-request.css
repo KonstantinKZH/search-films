@@ -1,0 +1,82 @@
+.results-request__card{
+    display: flex;
+    justify-content: flex-start;
+
+    width: 780px;
+    height: auto;
+    padding-top: 33px;
+    padding-bottom: 33px;
+    background-color: #3A3939;
+    transition: .3s linear;
+}
+
+.results-request__card:hover{
+    background-color: #686565
+}
+
+.results-search{
+    max-height: 100%;
+    overflow-y: auto;
+}
+
+.image-poster-wrapper{
+    padding-left: 33px;
+}
+
+.image-poster{
+    display: block;
+    width: 200px;
+    height: 290px;
+}
+
+.main-information-film{
+    position: relative;
+    margin-left: 65px;
+}
+
+.name-film{
+    margin-bottom: 10px;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 45px;
+    color: #ffffff;
+}
+
+.type-film{
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #ffffff;
+}
+
+.genre-film{
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #ffffff;
+}
+
+.duration-film{
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;
+    color: #ffffff;
+}
+
+.date-release-film{
+    position: absolute;
+    bottom: 0;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #6532F8;
+    letter-spacing: 0.05pc;
+    transition: all .3s linear;
+}
+
+.results-request__card:hover .date-release-film{
+    color: #fff;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="pages/index.css">
+    <title>Список фильмов</title>
+</head>
+
+<body class="body">
+    <div class="viewing-films">
+        <div class="container">
+            <div class="viewing-films__header">
+                <h1 class="name-site">Поиск фильмов</h1>
+            </div>
+            <div class="viewing-films__list">
+                <div class="input">
+                    <input type="text" class="js-input-search-film input-search-film" placeholder="Название фильма">
+                    <button class="js-btn-search-films btn-search-films"><img class="icon-search-films"
+                            src="resources/icons/icon-search/icon-search3.png"
+                            alt="Кнопка добавления фильмов"></button>
+                </div>
+                <div class="viewing-films__list-wrapper">
+                    <div id="results-search-id" class="js-results-search results-search"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="js-popup popup">
+        <div class="popup__popup-content">
+            <button class="js-btn-back-search btn-back-search">Назад к поиску</button>
+            <div class="popup__card-film">
+                <img class="js-popup__poster popup__poster" src="" alt="Постер">
+                <div class="popup__information-movie">
+                    <p class="js-name-movie information-movie__item information-film__item_title-styles"></p>
+                    <p class="information-movie__item">Год: <span class="js-year blue-color"></span></p>
+                    <p class="information-movie__item">Рейтинг: <span class="js-rating blue-color"></span></p>
+                    <p class="information-movie__item" >Продолжительность: <span class="js-duration blue-color"></span></p>
+                    <p class="information-movie__item" >Жанр: <span class="js-genre blue-color"></span></p>
+                    <p class="information-movie__item" >Страна: <span class="js-name-state blue-color"></span></p>
+                    <p class="js-film-description film-description"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>

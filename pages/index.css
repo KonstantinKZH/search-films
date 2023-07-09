@@ -1,0 +1,9 @@
+@import "../blocks/list-films.css";
+@import "../blocks/container.css";
+@import "../blocks/body.css";
+@import "../blocks/scroll.css";
+@import "../blocks/results-request.css";
+@import "../blocks/curd-film.css";
+
+@import "../vendor/reset.css";
+@import "../vendor/fonts.css";

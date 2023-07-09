@@ -1,0 +1,12 @@
+/* полоса прокрутки (скроллбар) */
+::-webkit-scrollbar {
+    width: 10px; /* ширина для вертикального скролла */
+    height: 8px; /* высота для горизонтального скролла */
+    background-color: #3A3939;
+}
+
+/* ползунок скроллбара */
+::-webkit-scrollbar-thumb {
+    background-color: #696969;
+    border-radius: 9em;
+}

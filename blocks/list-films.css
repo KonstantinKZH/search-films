@@ -1,0 +1,174 @@
+.viewing-films__header{
+    margin-bottom: 15px;
+    padding-left: 10px;
+}
+
+.viewing-films__header-items{
+    margin-bottom: 20px;
+    display: flex;
+}
+
+.list{
+    width: 183px;
+    height: 30px;
+    text-transform: uppercase;
+}
+
+.number-year{
+    width: 75px;
+    height: 30px;
+}
+
+.list_stile{
+    border-radius: 200px;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    color: #F3F6F9;
+    background-color: #6532F8;
+    border: 1px solid #6532F8;
+}
+
+.name-site{
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 138px;
+    color: #F3F6F9;
+}
+
+
+/* Следующий блок */
+.viewing-films__list{
+    width: 930px;
+    max-height: 100%;
+    overflow-y: auto;
+    border-radius: 20px;
+    background-color: #232323;;
+}
+
+.viewing-films__list-wrapper{
+    margin: 0 auto;
+    width: 790px;
+}
+
+.input{
+    margin-bottom: 55px;
+    padding-top: 85px;
+    padding-left: 70px;
+    display: flex;
+    column-gap: 20px;
+}
+
+.input-search-film{
+    width: 441px;
+    height: 51px;
+    outline: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: transparent;
+    color: #F3F6F9;
+
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 34px;
+}
+
+.icon-search-films{
+    display: block;
+    width: 40px;
+    height: 40px;
+    padding: 15px 15px;
+
+    background-color: #754bf5;
+    border-radius: 50%;
+    box-sizing: content-box;
+    transition: all .2s linear;
+}
+
+.btn-search-films{
+    border: none;
+    background: transparent;
+}
+
+
+
+.input__btn-add:active{
+    transform: scale(0.9);
+}
+
+
+/* Список фильмов */
+
+.list-films__film{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+    width: 770px;
+    height: 71px;
+    border-radius: 10px;
+    background-color: #3A3939;
+    
+}
+
+.film__checkbox-name{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+    padding-left: 24px;
+}
+
+
+/* Стилизация checkbox */
+input[type="checkbox"]{
+    display: none;
+}
+
+.checkbox-film{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #e3e3e3;
+    border-radius: 50%;
+}
+
+
+
+.name-film{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #F3F6F9;
+}
+
+.film__cross-delete{
+    display: block;
+    width: 23px;
+    height: 23px;
+    padding-right: 24px;
+    cursor: pointer;
+    box-sizing: content-box;
+    transition: all .2s linear;
+
+    object-fit: contain;
+    object-position: center;
+}
+
+.film__cross-delete:active{
+    width: 21px;
+    height: 21px;
+}
+
+/* Эти модификаторы сработают при нажатии на checkbox */
+.list-films_blackout{
+    opacity: 0.3;
+}
+
+.name-film_cross-out{
+    text-decoration: line-through;
+}
+
+.checkbox-film_background{
+    background-color: #6532F8;
+}
